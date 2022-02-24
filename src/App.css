@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "Ocean";
+  src: url("./assets/ocean/Ocean.ttf")
+ }
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Ocean";
+  background-image: url('./assets/jeremy-bishop-1braZySlEKA-unsplash.jpg');
+  background-size: contain;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rule {
+  font-size:2em;
+  color:rgba(0, 252, 218, 0.988);
+  margin-right:20%;
+  margin-left:20%;
+  margin-top: -10%;
+  margin-bottom: 5%
+}
+
+h1 {
+  text-align: center;
+  font-size: 10em;
+  color: rgba(0, 252, 218, 0.988);
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin: 2px;
+  font-family: "Ocean";
+  font-size: 2.5em;
+  color: rgba(7, 64, 150, 0.988);
+  border-style: none;
+  background-color:rgb(97, 170, 146);;
+}
+
+.try {
+  height: auto;
+  width: auto;
+  padding: 5px;
+  border-radius: 40%;
+  align-self: center;
+  margin-left: 20px;
+}
+
+.Board {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+}
+
+.Line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  margin: 5px;
+}
+
+.solution {
+  margin-top: 20px;
+}
+
+.showResult {
+  margin: 10px;
+}
+
+.good {
+  color:rgb(8, 233, 162);
+  font-size: 40px
+}
+
+.misp{
+  color: rgb(243, 199, 6);
+  font-size: 40px
+}
+
+.baudroieBall {
+  background-image: url(./assets/baudroie.jpeg);
+  background-size: cover;
+}
+
+.manteBall {
+  background-image: url(./assets/mante.jpeg);
+  background-size: cover;
+}
+
+.dragonBall {
+  background-image: url(./assets/dragon.jpeg);
+  background-size: cover;
+}
+
+.blobBall {
+  background-image: url(./assets/blobfish.jpeg);
+  background-size: cover;
+}
+
+.nullBall {
+  background-color: rgb(238, 228, 228)
+}
+
+.showSol {
+  height: auto;
+  width: auto;
+  padding: 6px;
+  border-radius: 30%;
+  align-self: center;
+  margin-top: 20px;
+}

@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b529d161.css",
+    "main.js": "/static/js/main.f1bf7a42.js",
+    "static/js/787.edb96382.chunk.js": "/static/js/787.edb96382.chunk.js",
+    "static/media/jeremy-bishop-1braZySlEKA-unsplash.jpg": "/static/media/jeremy-bishop-1braZySlEKA-unsplash.d7b5b18125dea3357631.jpg",
+    "static/media/blobfish.jpeg": "/static/media/blobfish.def4e95ac5dfe17b1d44.jpeg",
+    "static/media/dragon.jpeg": "/static/media/dragon.9efa6e28f5035581cea0.jpeg",
+    "static/media/Ocean.ttf": "/static/media/Ocean.393ed690e72aac0ef74e.ttf",
+    "static/media/baudroie.jpeg": "/static/media/baudroie.8ecf1847acdf024ea7e1.jpeg",
+    "static/media/mante.jpeg": "/static/media/mante.b675c51b7b8b6a400e3c.jpeg",
+    "index.html": "/index.html",
+    "main.b529d161.css.map": "/static/css/main.b529d161.css.map",
+    "main.f1bf7a42.js.map": "/static/js/main.f1bf7a42.js.map",
+    "787.edb96382.chunk.js.map": "/static/js/787.edb96382.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b529d161.css",
+    "static/js/main.f1bf7a42.js"
+  ]
+}
