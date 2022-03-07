@@ -19,7 +19,7 @@ body {
 }
 
 .rule {
-  font-size:2em;
+  font-size:5vw;
   color:rgba(0, 252, 218, 0.988);
   margin-right:20%;
   margin-left:20%;
@@ -29,17 +29,18 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 10em;
+  font-size: 25vw;
   color: rgba(0, 252, 218, 0.988);
 }
 
+
 button {
-  width: 100px;
-  height: 100px;
+  width: 12vw;
+  height: 12vw;
   border-radius: 100%;
   margin: 2px;
   font-family: "Ocean";
-  font-size: 2.5em;
+  font-size: 5vw;
   color: rgba(7, 64, 150, 0.988);
   border-style: none;
   background-color:rgb(97, 170, 146);;
@@ -79,12 +80,12 @@ button {
 
 .good {
   color:rgb(8, 233, 162);
-  font-size: 40px
+  font-size: 5vw;
 }
 
 .misp{
   color: rgb(243, 199, 6);
-  font-size: 40px
+  font-size: 5vw;
 }
 
 .baudroieBall {

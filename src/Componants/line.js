@@ -37,14 +37,15 @@ function Line({ id, solution, endGame, gameOver}) {
       for (let j = 0; j < 4; j++) {
         if (answer.includes(sol[j])) {
           colorOk += 1;
+          answer[answer.indexOf(sol[j])] = "o"
         }
       }
       sendResult([allOk, colorOk]);
 
-      if (allOk == 4){
+      if (allOk === 4){
         endGame('win')
       }
-      else if (id == '10' && allOk != 4) {
+      else if (id === '10' && allOk !== 4) {
         endGame('lose')
       }
     }
